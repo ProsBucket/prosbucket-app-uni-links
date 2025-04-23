@@ -1,6 +1,6 @@
-name: prosbucket_uni_links
+name: uni_links
 description: Flutter plugin for accepting incoming links - App/Deep Links (Android), Universal Links and Custom URL schemes (iOS).
-version: 0.6.3
+version: 0.6.4
 homepage: https://github.com/ProsBucket/prosbucket-app-uni-links/tree/main/uni_links
 
 dependencies:
