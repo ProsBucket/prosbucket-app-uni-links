@@ -1,3 +1,16 @@
+
+#
+The line:
+
+connection.gradle.distribution=GRADLE_DISTRIBUTION(VERSION(8.2.1))
+
+on file : uni_links\example\android\gradle\wrapper\gradle-wrapper.properties
+
+must reflect the equal or smaller to the version set on prosbucket-app\gradle-wrapper.properties
+
+
+
+----------------------------------------------------
 # Uni Links
 
 A Flutter plugin project to help with App/Deep Links (Android) and
@@ -24,7 +37,7 @@ To use the plugin, add `uni_links` as a
 
   Due to the migration to [null safety](https://dart.dev/null-safety), some APIs have changed. These changes
   mainly involve functions changing into getters, and types becoming
-  explicitly nullable.  
+  explicitly nullable.
 
   The changes to the example package are a good example of how to upgrade to
   this version.
@@ -412,7 +425,7 @@ replacing `unilinks` with `https`.
 For help on editing plugin code, view the
 [documentation](https://flutter.io/platform-plugins/#edit-code).
 
-This plugin uses the federated plugin architecture. New implementations must add the `uni_links_platform_interface` package to their `pubspec.yaml`, extend the `UniLinksPlatform` class, and register it properly.  
+This plugin uses the federated plugin architecture. New implementations must add the `uni_links_platform_interface` package to their `pubspec.yaml`, extend the `UniLinksPlatform` class, and register it properly.
 More information about federated plugins can be found in the [proposal document](https://docs.google.com/document/d/1LD7QjmzJZLCopUrFAAE98wOUQpjmguyGTN2wd_89Srs), the [Flutter plugin documentation](https://flutter.dev/docs/development/packages-and-plugins/developing-packages#federated-plugins), and [Harry Terkelsen's Medium story describing the architecture](https://medium.com/flutter/how-to-write-a-flutter-web-plugin-part-2-afdddb69ece6).
 
 ## License
