@@ -1,4 +1,4 @@
-package name.avioli.unilinks;
+package com.prosbucket.unilinks;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

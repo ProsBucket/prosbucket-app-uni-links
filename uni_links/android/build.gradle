@@ -2,10 +2,10 @@ plugins {
     id 'com.android.library'
 }
 
-group = 'name.avioli.unilinks'
+group = 'com.prosbucket.unilinks'
 
 android {
-    namespace 'name.avioli.unilinks'
+    namespace 'com.prosbucket.unilinks'
     compileSdkVersion 34
 
     defaultConfig {
