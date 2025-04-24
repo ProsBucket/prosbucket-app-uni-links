@@ -1,7 +1,5 @@
 
-plugins {
-    id 'com.android.library'
-}
+apply plugin: 'com.android.library'
 
 group = 'com.prosbucket.unilinks'
 
@@ -13,11 +11,12 @@ android {
         minSdkVersion 21
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
     lintOptions {
         disable 'InvalidPackage'
     }
 }
 
 dependencies {
-
+    // You can add necessary dependencies here
 }

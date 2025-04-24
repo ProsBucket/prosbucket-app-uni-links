@@ -1,1 +1,3 @@
 rootProject.name = 'uni_links'
+
+include ':android'
