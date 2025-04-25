@@ -1,22 +1,24 @@
-
-apply plugin: 'com.android.library'
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android' // if using Kotlin in this module
+}
 
 group = 'com.prosbucket.unilinks'
 
 android {
     namespace 'com.prosbucket.unilinks'
-    compileSdkVersion 34
+    compileSdk = 34
 
     defaultConfig {
-        minSdkVersion 21
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        minSdk = 21
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    lintOptions {
-        disable 'InvalidPackage'
+    lint {
+        disable += 'InvalidPackage'
     }
 }
 
 dependencies {
-    // You can add necessary dependencies here
+    // Add your dependencies here if needed
 }
